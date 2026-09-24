@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Cafetería La Esquina — Bienvenidos</title>
+  <meta name="description" content="Cafetería La Esquina: café, repostería y un espacio acogedor en tu barrio.">
+  <meta name="theme-color" content="#6b4f3a">
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="brand">Cafetería La Esquina</h1>
+      <p class="tag">Tu rincón de café y encuentros</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Bienvenido a La Esquina</h2>
+      <p>Disfruta de cafés especiales, repostería casera y un ambiente acogedor. Ideal para trabajar, leer o conversar.</p>
+    </section>
+
+    <section class="info-grid">
+      <article class="card">
+        <h3>Horario</h3>
+        <p>Lunes a Viernes: 08:00 — 20:00<br>Sábados: 09:00 — 18:00<br>Domingo: Cerrado</p>
+      </article>
+
+      <article class="card">
+        <h3>Dirección</h3>
+        <p>Av. Principal, esquina Central — Barrio Centro</p>
+        <p>(Reemplaza con la dirección real de tu cafetería)</p>
+      </article>
+
+      <article class="card">
+        <h3>Contacto</h3>
+        <p>Email: contacto@laesquina.example</p>
+        <p>Teléfono: +34 600 000 000 (placeholder)</p>
+      </article>
+    </section>
+
+    <section class="menu">
+      <h2>Menú destacado</h2>
+      <ul class="menu-list">
+        <li>
+          <strong>Americano</strong> — Café filtrado clásico
+          <span class="price">€1.50</span>
+        </li>
+        <li>
+          <strong>Cappuccino</strong> — Espresso con espuma de leche
+          <span class="price">€2.30</span>
+        </li>
+        <li>
+          <strong>Tostada con aguacate</strong> — Pan artesanal y toppings
+          <span class="price">€3.80</span>
+        </li>
+      </ul>
+      <p class="note">Menú orientativo: actualiza los items y precios reales antes de publicar.</p>
+    </section>
+
+    <section class="contact-form">
+      <h2>Reserva / Consulta rápida</h2>
+      <form onsubmit="alert('Este formulario es de ejemplo. Conecta un backend o un formulario de terceros para recibir mensajes.'); return false;">
+        <label>
+          Nombre
+          <input type="text" name="name" placeholder="Tu nombre" required>
+        </label>
+        <label>
+          Mensaje
+          <textarea name="message" placeholder="¿En qué podemos ayudarte?" required></textarea>
+        </label>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Cafetería La Esquina — Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Small script to update the year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
